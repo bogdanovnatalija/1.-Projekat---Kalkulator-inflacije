@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Izracunavanje inflacije</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="background-overlay">
+
+		<h1>Kalkulator inflacije</h1>
+
+		<div class="container">
+			<h3>Stopa inflacije: <input type="number" min="0.1" id="stopaInflacije"> %</h3> <br>
+			<h3>Izračunaj koliko će <input type="number" min="1" id="sumaNovca"> € da vredi za 
+				<input type="number" min="1" id="godine"> godina?</h3>
+
+			<button onclick="kalkulatorInflacije()">Izračunaj</button>
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
